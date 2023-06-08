@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-str = "Holberton School"
-print(str + str + str)
-print(str[:9])
+for number in range(0, 100):
+    if number == 99:
+        print("{}".format(number))
+    else:
+        print("{:02}".format(number), end=", ")
+
